@@ -117,7 +117,6 @@
 
 	let selectedToolIds = [];
 	let imageGenerationEnabled = false;
-	let webSearchEnabled = false;
 	let codeInterpreterEnabled = false;
 	let webSearchEnabled = $settings?.alwaysOnWebSearch ?? false;
 
