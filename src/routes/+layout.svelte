@@ -8,6 +8,7 @@
 	});
 
 	import { onMount, tick, setContext } from 'svelte';
+	import { setupServiceWorkerUpdate } from '$lib/utils/service-worker-update';
 	import {
 		config,
 		user,
@@ -308,6 +309,9 @@
 	};
 
 	onMount(async () => {
+		// Add service worker update setup
+		setupServiceWorkerUpdate();
+
 		if (window?.electronAPI) {
 			const info = await window.electronAPI.send({
 				type: 'app:info'

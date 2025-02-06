@@ -23,10 +23,68 @@
 }
 
 @font-face {
-	font-family: 'Poppins';
-	src: url('https://static.colostate.edu/fonts/poppins/poppins.css');
-	font-display: swap;
-}
+    font-family: 'Poppins';
+    font-weight: 100;
+    font-style: normal;
+    src: url('https://static.colostate.edu/fonts/poppins/poppins/Poppins-Thin.woff2') format('woff2');
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-style: normal;
+    src: url('https://static.colostate.edu/fonts/poppins/poppins/Poppins-ExtraLight.woff2') format('woff2');
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://static.colostate.edu/fonts/poppins/poppins/Poppins-Light.woff2') format('woff2');
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://static.colostate.edu/fonts/poppins/poppins/Poppins-Regular.woff2') format('woff2');
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://static.colostate.edu/fonts/poppins/poppins/Poppins-Medium.woff2') format('woff2');
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    src: url('https://static.colostate.edu/fonts/poppins/poppins/Poppins-SemiBold.woff2') format('woff2');
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://static.colostate.edu/fonts/poppins/poppins/Poppins-Bold.woff2') format('woff2');
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://static.colostate.edu/fonts/poppins/poppins/Poppins-ExtraBold.woff2') format('woff2');
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-style: normal;
+    src: url('https://static.colostate.edu/fonts/poppins/poppins/Poppins-Black.woff2') format('woff2');
+    font-display: swap;
+} 
 
 html {
 	word-break: break-word;
