@@ -8,7 +8,23 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				gray: {
+			      csu: {
+			        // Primary Colors
+			        'aggie-orange': '#D9782D',
+			        'gold': '#C8C372',
+			        'green': '#1E4D2B',
+			        
+			        // Secondary Colors
+			        'oval-green': '#006144',
+			        'lovers-lane': '#82C503',
+			        'energy-green': '#CFFC00',
+			        'flower-trial-red': '#E56A54',
+			        'powered-purple': '#7E5475',
+			        'horsetooth-blue': '#008FB3',
+			        'stalward-slate': '#105456',
+			        'sunshine': '#FFC038'
+			      },
+			      gray: {
 					50: '#f9f9f9',
 					100: '#ececec',
 					200: '#e3e3e3',

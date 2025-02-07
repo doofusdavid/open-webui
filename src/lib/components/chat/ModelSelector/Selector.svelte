@@ -230,7 +230,7 @@
 	closeFocus={false}
 >
 	<DropdownMenu.Trigger
-		class="relative w-full font-primary"
+		class="relative w-full text-gray-100 font-primary"
 		aria-label={placeholder}
 		id="model-selector-{id}-button"
 	>

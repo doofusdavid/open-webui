@@ -45,7 +45,7 @@
 
 <nav class="sticky top-0 z-30 w-full px-1.5 py-1.5 -mb-8 flex items-center drag-region">
 	<div
-		class=" bg-gradient-to-b via-50% from-white via-white to-transparent dark:from-gray-900 dark:via-gray-900 dark:to-transparent pointer-events-none absolute inset-0 -bottom-7 z-[-1] blur"
+		class=" bg-csu-green dark:bg-csu-gold pointer-events-none absolute inset-0 -bottom-7 z-[-1]"
 	></div>
 
 	<div class=" flex max-w-full w-full mx-auto px-1 pt-0.5 bg-transparent">
@@ -53,7 +53,7 @@
 			<div
 				class="{$showSidebar
 					? 'md:hidden'
-					: ''} mr-1 self-start flex flex-none items-center text-gray-600 dark:text-gray-400"
+					: ''} mr-1 self-start flex flex-none items-center text-gray-200 dark:text-gray-700"
 			>
 				<button
 					id="sidebar-toggle-button"
@@ -79,7 +79,7 @@
 				{/if}
 			</div>
 
-			<div class="self-start flex flex-none items-center text-gray-600 dark:text-gray-400">
+			<div class="self-start flex flex-none items-center text-gray-100 dark:text-gray-800">
 				<!-- <div class="md:hidden flex self-center w-[1px] h-5 mx-2 bg-gray-300 dark:bg-stone-700" /> -->
 				{#if shareEnabled && chat && (chat.id || $temporaryChatEnabled)}
 					<Menu
