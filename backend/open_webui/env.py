@@ -92,6 +92,7 @@ log_sources = [
     "RAG",
     "WEBHOOK",
     "SOCKET",
+    "OAUTH",
 ]
 
 SRC_LOG_LEVELS = {}
@@ -110,6 +111,7 @@ WEBUI_NAME = os.environ.get("WEBUI_NAME", "Open WebUI")
 
 WEBUI_FAVICON_URL = "/favicon/favicon-96x96.png"
 
+TRUSTED_SIGNATURE_KEY = os.environ.get("TRUSTED_SIGNATURE_KEY", "")
 
 ####################################
 # ENV (dev,test,prod)
