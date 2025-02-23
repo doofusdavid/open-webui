@@ -223,7 +223,7 @@
 				showControls.set(false);
 			}}
 			collapsible={true}
-			class="pt-8"
+			class="pt-15"
 		>
 			{#if $showControls}
 				<div class="pr-4 pb-8 flex max-h-full min-h-full">
